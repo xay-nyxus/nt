@@ -1,2 +1,2 @@
-# Number THeory and Cryptography
+# Number Theory and Cryptography
 This is the repository for submission of programming assignments for Number theory and Cryptography.
