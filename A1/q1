@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main() {
-    // Write C code here
     int m,n,g;
 
     printf("gcd(m, n) = mx + ny\nEnter m: ");
