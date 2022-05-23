@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int m,n,g;
+
+    printf("gcd(m, n) = mx + ny\nEnter m: ");
+    scanf("%d",&m);
+    printf("\nEnter n: ");
+    scanf("%d",&n);
+
+    for(int i=1; i<=m && i<=n; i++){
+        if(m%i==0 && n%i==0)
+            g = i;
+    }
+
+    int x,y,a;
+    a=1;
+    x=(-1*m);
+    while(a!=0){
+        a=(g-(m*x))%n;
+        if (a==0){
+            y=(g-(m*x))/n;
+            printf("x=%d\ny=%d",x,y);
+        }
+        x++;
+    }
+    
+    return 0;
+}
